@@ -14,12 +14,12 @@
 }
 
 #container p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 22px;
 
-  color: #8c8c8c;
-
-  margin: 0;
+  color: #565656;
+  width: 100%;
+  margin-top: 20px;
 }
 
 #container a {
@@ -28,4 +28,16 @@
 
 ion-content ion-toolbar {
   --background: translucent;
+}
+
+
+.picker-wrapper.sc-ion-picker-md{
+  background-color: transparent;
+}
+
+.button-inner{
+  margin-top: 50px !important;
+}
+.btnPlay{
+  margin-top: 0px;
 }
